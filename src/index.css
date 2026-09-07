@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html,
+#root {
+  width: 100%;
+  height: 100%;
+}
+:root {
+  --bg-color: #1a1a26;
+  --card-bg: #1e1e2d;
+  --text-color: #ffffff;
+  --border-color: #333333;
+}
+
+[data-theme="light"] {
+  --bg-color: #f4f5f7;
+  --card-bg: #ffffff;
+  --text-color: #18181b;
+  --border-color: #e4e4e7;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}

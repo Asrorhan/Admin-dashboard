@@ -1,0 +1,17 @@
+.revenue-chart-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 20px;
+  height: 350px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 30px;
+  color: var(--text-color);
+}
+
+.chart-title {
+  color: var(--text-color);
+  margin-bottom: 20px;
+  margin-top: 0;
+}

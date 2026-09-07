@@ -1,0 +1,31 @@
+.dashboard-container {
+  padding: 20px;
+  color: var(--text-color);
+}
+
+.stats-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px;
+  }
+
+  .sidebar-menu {
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 10px;
+  }
+
+  .sidebar-item {
+    white-space: nowrap;
+  }
+}
